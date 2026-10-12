@@ -52,7 +52,7 @@ stages:
 
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: 'ASP-rgportafolio-9ebe' # Nombre de la conexión
+        azureSubscription: 'Portafolio-Azure_conexion' # Nombre de la conexión
         appType: 'webApp'
         appName: 'PortafolioDevsSteven2026'    # Nombre de tu App Service
         package: '$(System.ArtifactsDirectory)/drop/*.zip'
