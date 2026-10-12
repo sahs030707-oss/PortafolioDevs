@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "PortafolioDevs": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58357;http://localhost:58358"
+    }
+  }
+}
